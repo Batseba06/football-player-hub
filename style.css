@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    height: 100vh; /* Full viewport height */
+    height: 100vh; 
     background-image: url('Soccer ball flew into the goal_ _ Premium Photo.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -50,8 +50,19 @@ p {
     text-align:center;
     margin-top: 150px;
     line-height: 1.5;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.7); /* Makes text pop */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
 }
+
+body.players {
+    margin: 0;
+    height: 100vh; 
+    background: url("stadium2.jpg") no-repeat center center;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: relative;
+}
+
 .player{
     list-style: none;
     display: flex;
@@ -60,9 +71,9 @@ p {
 
 }
 .player img {
-    width: 250px;       /* set the same width for all images */
-    height: 400px;      /* set the same height for all images */
-    object-fit: cover;  /* ensures image fills the box without stretching */
-    border-radius: 10px; /* optional: rounded corners */
-    margin: 20px;        /* optional: space between images */
+    width: 250px;       
+    height: 400px;      
+    object-fit: cover;  
+    border-radius: 10px; 
+    margin: 20px;        
 }
