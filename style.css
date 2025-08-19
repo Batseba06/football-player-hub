@@ -55,25 +55,40 @@ p {
 
 body.players {
     margin: 0;
-    height: 100vh; 
-    background: url("stadium2.jpg") no-repeat center center;
-    background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    position: relative;
+    background-color: aquamarine; /* change to any color you like */
 }
 
-.player{
-    list-style: none;
+.images {
     display: flex;
-    gap: 10px;
-    margin: 0;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 2rem;
+}
 
+.player-name {
+    text-align: center;
 }
-.player img {
-    width: 250px;       
-    height: 400px;      
-    object-fit: cover;  
-    border-radius: 10px; 
-    margin: 20px;        
+
+.player-name img {
+    width: 250px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s; 
+    cursor: pointer;
+    display: inline-block; /* add this */
 }
+
+
+.player-name img:hover {
+    transform: scale(1.05);  /* zoom effect on hover */
+}
+
+.player-name h3 {
+    margin-top: 10px;
+    color: black;
+}
+
+
