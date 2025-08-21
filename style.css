@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    height: 100vh; 
+    height: auto; 
     background-image: url('Soccer ball flew into the goal_ _ Premium Photo.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -53,11 +53,7 @@ p {
     text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
 }
 
-body.players {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: aquamarine; /* change to any color you like */
-}
+
 
 .images {
     display: flex;
