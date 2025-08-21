@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    height: auto; 
+    height: 100vh; 
     background-image: url('Soccer ball flew into the goal_ _ Premium Photo.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -54,6 +54,9 @@ p {
 }
 
 
+body.players{
+    height: 400vh;
+}
 
 .images {
     display: flex;
