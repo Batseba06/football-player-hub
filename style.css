@@ -86,6 +86,37 @@ body {
     background-color: #e67e22;
 }
 
+.featured-section, .teams-preview, .news-section, .newsletter {
+    padding: 2rem;
+    text-align: center;
+}
+
+.news-list {
+    list-style: none;
+    padding: 0;
+}
+
+.news-list li {
+    margin: 0.5rem 0;
+}
+
+.newsletter input {
+    padding: 0.7rem;
+    width: 250px;
+    margin-right: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.newsletter button {
+    padding: 0.7rem 1rem;
+    background: #f39c12;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 /* Players Grid */
 .images {
     display: grid;
@@ -185,14 +216,17 @@ body {
     background-color: #e67e22;
 }
 
-/* Footer */
 footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     text-align: center;
     padding: 1rem;
     background-color: #1a1a1a;
     color: #fff;
-    margin-top: 2rem;
 }
+
 
 /* Responsive */
 @media(max-width:768px){
